@@ -66,6 +66,7 @@
     if ([modelIdentifier isEqualToString:@"iPhone9,1"])    return @"iPhone 7";
     if ([modelIdentifier isEqualToString:@"iPhone9,2"])    return @"iPhone 7 Plus";
     if ([modelIdentifier isEqualToString:@"iPhone9,3"])    return @"iPhone 7";
+    if ([modelIdentifier isEqualToString:@"iPhone9,4"])    return @"iPhone 7 Plus (GSM)";
     if ([modelIdentifier isEqualToString:@"iPhone10,1"])   return @"iPhone 8";               // http://pdadb.net/index.php?m=device&id=11962&c=apple_iphone_8_a1863_td-lte_256gb__apple_iphone_10,1
     if ([modelIdentifier isEqualToString:@"iPhone10,2"])   return @"iPhone 8 Plus";          // http://pdadb.net/index.php?m=device&id=12155&c=apple_iphone_8_plus_a1864_td-lte_64gb__a1899__apple_iphone_10,2
     if ([modelIdentifier isEqualToString:@"iPhone10,3"])   return @"iPhone X";               // http://pdadb.net/index.php?m=device&id=12153&c=apple_iphone_x_a1865_td-lte_256gb__iphone_ten__apple_iphone_10,3
