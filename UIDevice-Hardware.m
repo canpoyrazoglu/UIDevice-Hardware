@@ -48,16 +48,16 @@
     if ([modelIdentifier isEqualToString:@"iPhone1,1"])    return @"iPhone 1G";
     if ([modelIdentifier isEqualToString:@"iPhone1,2"])    return @"iPhone 3G";
     if ([modelIdentifier isEqualToString:@"iPhone2,1"])    return @"iPhone 3GS";
-    if ([modelIdentifier isEqualToString:@"iPhone3,1"])    return @"iPhone 4 (GSM)";
-    if ([modelIdentifier isEqualToString:@"iPhone3,2"])    return @"iPhone 4 (GSM Rev A)";
-    if ([modelIdentifier isEqualToString:@"iPhone3,3"])    return @"iPhone 4 (CDMA)";
+    if ([modelIdentifier isEqualToString:@"iPhone3,1"])    return @"iPhone 4";
+    if ([modelIdentifier isEqualToString:@"iPhone3,2"])    return @"iPhone 4";
+    if ([modelIdentifier isEqualToString:@"iPhone3,3"])    return @"iPhone 4";
     if ([modelIdentifier isEqualToString:@"iPhone4,1"])    return @"iPhone 4S";
-    if ([modelIdentifier isEqualToString:@"iPhone5,1"])    return @"iPhone 5 (GSM)";
-    if ([modelIdentifier isEqualToString:@"iPhone5,2"])    return @"iPhone 5 (Global)";
-    if ([modelIdentifier isEqualToString:@"iPhone5,3"])    return @"iPhone 5c (GSM)";
-    if ([modelIdentifier isEqualToString:@"iPhone5,4"])    return @"iPhone 5c (Global)";
-    if ([modelIdentifier isEqualToString:@"iPhone6,1"])    return @"iPhone 5s (GSM)";
-    if ([modelIdentifier isEqualToString:@"iPhone6,2"])    return @"iPhone 5s (Global)";
+    if ([modelIdentifier isEqualToString:@"iPhone5,1"])    return @"iPhone 5";
+    if ([modelIdentifier isEqualToString:@"iPhone5,2"])    return @"iPhone 5";
+    if ([modelIdentifier isEqualToString:@"iPhone5,3"])    return @"iPhone 5c";
+    if ([modelIdentifier isEqualToString:@"iPhone5,4"])    return @"iPhone 5c";
+    if ([modelIdentifier isEqualToString:@"iPhone6,1"])    return @"iPhone 5s";
+    if ([modelIdentifier isEqualToString:@"iPhone6,2"])    return @"iPhone 5s";
     if ([modelIdentifier isEqualToString:@"iPhone7,1"])    return @"iPhone 6 Plus";
     if ([modelIdentifier isEqualToString:@"iPhone7,2"])    return @"iPhone 6";
     if ([modelIdentifier isEqualToString:@"iPhone8,1"])    return @"iPhone 6s";
@@ -66,27 +66,27 @@
     if ([modelIdentifier isEqualToString:@"iPhone9,1"])    return @"iPhone 7";
     if ([modelIdentifier isEqualToString:@"iPhone9,2"])    return @"iPhone 7 Plus";
     if ([modelIdentifier isEqualToString:@"iPhone9,3"])    return @"iPhone 7";
-    if ([modelIdentifier isEqualToString:@"iPhone9,4"])    return @"iPhone 7 Plus (GSM)";
+    if ([modelIdentifier isEqualToString:@"iPhone9,4"])    return @"iPhone 7 Plus";
     if ([modelIdentifier isEqualToString:@"iPhone10,1"])   return @"iPhone 8";               // http://pdadb.net/index.php?m=device&id=11962&c=apple_iphone_8_a1863_td-lte_256gb__apple_iphone_10,1
     if ([modelIdentifier isEqualToString:@"iPhone10,2"])   return @"iPhone 8 Plus";          // http://pdadb.net/index.php?m=device&id=12155&c=apple_iphone_8_plus_a1864_td-lte_64gb__a1899__apple_iphone_10,2
     if ([modelIdentifier isEqualToString:@"iPhone10,3"])   return @"iPhone X";               // http://pdadb.net/index.php?m=device&id=12153&c=apple_iphone_x_a1865_td-lte_256gb__iphone_ten__apple_iphone_10,3
-    if ([modelIdentifier isEqualToString:@"iPhone10,4"])   return @"iPhone 8 (Global)";      // http://pdadb.net/index.php?m=device&id=12157&c=apple_iphone_8_a1905_td-lte_256gb__apple_iphone_10,4
-    if ([modelIdentifier isEqualToString:@"iPhone10,5"])   return @"iPhone 8 Plus (Global)"; // http://pdadb.net/index.php?m=device&id=12161&c=apple_iphone_8_plus_a1897_td-lte_64gb__apple_iphone_10,5
-    if ([modelIdentifier isEqualToString:@"iPhone10,6"])   return @"iPhone X (Global)";      // http://pdadb.net/index.php?m=device&id=12156&c=apple_iphone_x_a1901_td-lte_64gb__apple_iphone_10,6
+    if ([modelIdentifier isEqualToString:@"iPhone10,4"])   return @"iPhone 8";      // http://pdadb.net/index.php?m=device&id=12157&c=apple_iphone_8_a1905_td-lte_256gb__apple_iphone_10,4
+    if ([modelIdentifier isEqualToString:@"iPhone10,5"])   return @"iPhone 8 Plus"; // http://pdadb.net/index.php?m=device&id=12161&c=apple_iphone_8_plus_a1897_td-lte_64gb__apple_iphone_10,5
+    if ([modelIdentifier isEqualToString:@"iPhone10,6"])   return @"iPhone X";      // http://pdadb.net/index.php?m=device&id=12156&c=apple_iphone_x_a1901_td-lte_64gb__apple_iphone_10,6
 
     // iPad http://theiphonewiki.com/wiki/IPad
 
     if ([modelIdentifier isEqualToString:@"iPad1,1"])      return @"iPad 1G";
     if ([modelIdentifier isEqualToString:@"iPad2,1"])      return @"iPad 2 (Wi-Fi)";
-    if ([modelIdentifier isEqualToString:@"iPad2,2"])      return @"iPad 2 (GSM)";
-    if ([modelIdentifier isEqualToString:@"iPad2,3"])      return @"iPad 2 (CDMA)";
-    if ([modelIdentifier isEqualToString:@"iPad2,4"])      return @"iPad 2 (Rev A)";
+    if ([modelIdentifier isEqualToString:@"iPad2,2"])      return @"iPad 2";
+    if ([modelIdentifier isEqualToString:@"iPad2,3"])      return @"iPad 2";
+    if ([modelIdentifier isEqualToString:@"iPad2,4"])      return @"iPad 2";
     if ([modelIdentifier isEqualToString:@"iPad3,1"])      return @"iPad 3 (Wi-Fi)";
-    if ([modelIdentifier isEqualToString:@"iPad3,2"])      return @"iPad 3 (GSM)";
-    if ([modelIdentifier isEqualToString:@"iPad3,3"])      return @"iPad 3 (Global)";
+    if ([modelIdentifier isEqualToString:@"iPad3,2"])      return @"iPad 3";
+    if ([modelIdentifier isEqualToString:@"iPad3,3"])      return @"iPad 3";
     if ([modelIdentifier isEqualToString:@"iPad3,4"])      return @"iPad 4 (Wi-Fi)";
-    if ([modelIdentifier isEqualToString:@"iPad3,5"])      return @"iPad 4 (GSM)";
-    if ([modelIdentifier isEqualToString:@"iPad3,6"])      return @"iPad 4 (Global)";
+    if ([modelIdentifier isEqualToString:@"iPad3,5"])      return @"iPad 4";
+    if ([modelIdentifier isEqualToString:@"iPad3,6"])      return @"iPad 4";
     if ([modelIdentifier isEqualToString:@"iPad6,11"])     return @"iPad (5th gen) (Wi-Fi)";
     if ([modelIdentifier isEqualToString:@"iPad6,12"])     return @"iPad (5th gen) (Cellular)";
 
@@ -98,8 +98,8 @@
     // iPad Mini http://theiphonewiki.com/wiki/IPad_mini
 
     if ([modelIdentifier isEqualToString:@"iPad2,5"])      return @"iPad mini 1G (Wi-Fi)";
-    if ([modelIdentifier isEqualToString:@"iPad2,6"])      return @"iPad mini 1G (GSM)";
-    if ([modelIdentifier isEqualToString:@"iPad2,7"])      return @"iPad mini 1G (Global)";
+    if ([modelIdentifier isEqualToString:@"iPad2,6"])      return @"iPad mini 1G";
+    if ([modelIdentifier isEqualToString:@"iPad2,7"])      return @"iPad mini 1G";
     if ([modelIdentifier isEqualToString:@"iPad4,4"])      return @"iPad mini 2G (Wi-Fi)";
     if ([modelIdentifier isEqualToString:@"iPad4,5"])      return @"iPad mini 2G (Cellular)";
     if ([modelIdentifier isEqualToString:@"iPad4,6"])      return @"iPad mini 2G (Cellular)"; // TD-LTE model see https://support.apple.com/en-us/HT201471#iPad-mini2
